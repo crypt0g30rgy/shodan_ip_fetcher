@@ -22,7 +22,7 @@ pip install shodan
 3. Run the script with your Shodan API key, output file path, and target host:
 
 ```bash
-python shodan_ip_fetcher.py <api_key> <output_file> <target_host> [--limit LIMIT]
+python shodan_ip_fetcher.py -k <api_key> -o <output_file> -h <target_host> [--limit LIMIT]
 ```
 
 Replace <api_key>, <output_file>, and <target_host> with your Shodan API key, output file path, and the target host (e.g., example.com) respectively. You can also optionally specify the --limit argument to set the number of results (default is 200).
