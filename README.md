@@ -1,4 +1,4 @@
-#3Shodan IP Fetcher
+# Shodan IP Fetcher
 A simple Python script to fetch SSL-enabled IPs related to a specific host using the Shodan API.
 
 ## Description
